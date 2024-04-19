@@ -1,8 +1,4 @@
 {
-    {
-    "buildCommand": "npm install"
-    }
-    
     "version": 2,
     "builds": [
         {
@@ -15,6 +11,13 @@
         {
             "src": "/(.*)",
             "dest": "dist/index.js"
+        }
+    ],
+    "builds": [
+        {
+            "src": "package.json",
+            "use": "@now/node",
+            "config": { "buildCommand": "npm install" }
         }
     ]
 }
