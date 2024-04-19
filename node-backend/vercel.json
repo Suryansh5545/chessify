@@ -5,6 +5,10 @@
       "src": "index.js",
       "use": "@now/node",
       "config": { "tsc": "-b" }
+    },
+    {
+      "src": "package.json",
+      "use": "@now/node"
     }
   ],
   "routes": [
