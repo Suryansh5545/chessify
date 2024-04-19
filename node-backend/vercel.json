@@ -4,7 +4,7 @@
     {
       "src": "index.js",
       "use": "@now/node",
-      "config": { "tsc": "-b" } // Add this line
+      "config": { "tsc": "-b" }
     }
   ],
   "routes": [
